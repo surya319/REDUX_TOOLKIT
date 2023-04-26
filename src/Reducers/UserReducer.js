@@ -1,9 +1,5 @@
 const initialState = {
-  value: {
-    Name: "",
-    Age: "",
-    Email: "",
-  },
+  value: {},
 };
 export const userReducer = (state = initialState, action) => {
   switch (action.type) {

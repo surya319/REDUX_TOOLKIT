@@ -6,7 +6,7 @@ import { getData } from "./Actions/UserAction";
 function App() {
   const counter = useSelector((state) => state.counter);
   const isLogged = useSelector((state) => state.isLogged);
-  const UserList = useSelector((state) => state.userData);
+  const UserList = useSelector((state) => state.userData.value);
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
   const [email, setEmail] = useState("");
