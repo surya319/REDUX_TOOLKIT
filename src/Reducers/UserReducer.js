@@ -1,8 +1,8 @@
 const initialState = {
   value: {
-    name: "Surya G",
-    age: 24,
-    email: "suryagunasekaran24@gmail.com",
+    Name: "",
+    Age: "",
+    Email: "",
   },
 };
 export const userReducer = (state = initialState, action) => {

@@ -3,7 +3,7 @@ import { LoginReducer } from "./LoginReducer";
 import { userReducer } from "./UserReducer";
 import { combineReducers } from "redux";
 
-export const allReducers = combineReducers({
+export const rootReducer = combineReducers({
   counter: CounterReducer,
   isLogged: LoginReducer,
   userData: userReducer,
